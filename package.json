@@ -1,0 +1,19 @@
+{
+  "name": "codeboost",
+  "version": "1.0.0",
+  "description": "前端工具箱，方便项目的启动和提高开发效率",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zayfen/CodeBoost.git"
+  },
+  "author": "zayfen <zhangyunfeng0101@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zayfen/CodeBoost/issues"
+  },
+  "homepage": "https://github.com/zayfen/CodeBoost#readme"
+}
