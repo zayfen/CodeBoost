@@ -4,7 +4,7 @@
   "description": "前端工具箱，方便项目的启动和提高开发效率",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",
