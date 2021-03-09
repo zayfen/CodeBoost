@@ -1,4 +1,4 @@
-import { Storage } from '../../src/Storage/storage.js'
+import { Storage } from '../../../src/Storage/storage.js'
 
 describe('Storage Test', () => {
   const storage = new Storage('LOCAL_STORAGE')
@@ -7,4 +7,6 @@ describe('Storage Test', () => {
     let data = storage.get('key')
     expect(data).to.deep.equal({name: 'zayfen', age: 18})
   })
+
+
 })

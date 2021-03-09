@@ -39,7 +39,7 @@ export class Storage {
   valueToTypeValue (value) {
     const validValueTypes = ['object', 'number', 'string']
     const type = typeof value
-    if (!validValueTypes.indexOf(type)) {
+    if (validValueTypes.indexOf(type) < 0) {
       throw new Error('invalid value type: ' + type)
     }
 

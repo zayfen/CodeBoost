@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zayfen/CodeBoost/issues"
   },
-  "homepage": "https://github.com/zayfen/CodeBoost#readme"
+  "homepage": "https://github.com/zayfen/CodeBoost#readme",
+  "devDependencies": {
+    "cypress": "^6.5.0"
+  }
 }
