@@ -48,7 +48,6 @@ export class Performance {
         fn.apply(context, args)
       }, leftTimeToNextAction)
     }
-    
   }
 
 }
