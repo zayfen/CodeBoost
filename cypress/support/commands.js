@@ -23,3 +23,12 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('syncDelay', (ms) => {
+  const pre = Date.now()
+  while (true) {
+    if (Date.now() - pre >= ms) {
+      return
+    }
+  }
+})

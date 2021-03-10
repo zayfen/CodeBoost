@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/zayfen/CodeBoost#readme",
   "devDependencies": {
-    "cypress": "^6.5.0"
+    "cypress": "^6.5.0",
+    "typescript": "^4.2.3"
   }
 }
